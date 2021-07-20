@@ -1,4 +1,4 @@
-# Spotify Code
+# Printable Spotify Code
 
 ![scad](screen.png)
 
