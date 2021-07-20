@@ -19,7 +19,7 @@ module bottom(x,y,h) {
 }
 
 difference() {
-  bottom(170,45,6);
-  linear_extrude(height = 20, scale=1) import(file = filename, dpi = 96);
-  translate([22.5,22.5,-1]) cylinder(d=30,h=20);
+  bottom(80,20,4);
+  translate([-1,-0.3,-0.1]) linear_extrude(height = 5, scale=1) import(file = filename, dpi = 310);
+  translate([9,10,-1]) cylinder(d=11,h=20);
 }
